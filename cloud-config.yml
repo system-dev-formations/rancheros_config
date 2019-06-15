@@ -8,7 +8,7 @@ rancher:
     interfaces:
       eth0:
        dhcp: true
-      eth0:
+      eth1:
        dhcp: true
 
     dns:
