@@ -1,0 +1,17 @@
+ssh_authorized_keys:
+  - ssh-rsa xxxxxx
+
+hostname: rancher
+
+rancher:
+  network:
+    interfaces:
+      eth0:
+       dhcp: true
+      eth0:
+       dhcp: true
+
+    dns:
+     nameservers:
+      - 8.8.8.8
+      - 8.8.4.4
